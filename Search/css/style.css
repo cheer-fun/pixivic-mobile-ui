@@ -1,0 +1,111 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, img {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.content {
+    width: 100%;
+}
+
+.loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: 0px;
+    width: 100px;
+    height:100px;
+    padding: 10px 0px 10px 0px;
+}
+
+.loader img {
+    height: 100px;
+}
+
+#info {
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    width:200px;
+    position: relative;
+    margin: 20px auto;
+    left: 0;
+    top: 50%;
+    color: #33a3dc;
+}
+
+.search {
+    position: relative;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#search-box {
+    padding: 10px;
+    background-color: rgba(51, 163, 220, 0.3);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border: 0 none;
+    width: 300px;
+    height: 50px;
+    -webkit-appearance: none;
+    font-size: 20px;
+}
+
+#search-box:hover {
+    background-color: rgba(51, 163, 220, 0.5);
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.slide-box{
+    position: relative;
+    display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+    margin: 0 5px 15px 5px;
+}
+.slide-item{
+    font-family: Arial;
+    padding: 5px 7px 5px 7px ;
+    width: auto;
+    height: 32px;
+    border-radius: 3px;
+    margin-right: 7px;
+    text-align: center;
+    color: white;
+    background-color: #B9EEE5;
+}
+
+.slide-box ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+    background-color: transparent;
+}
+.title{
+    font-size: 16px;
+}
+.des{
+
+    font-size: 10px;
+}

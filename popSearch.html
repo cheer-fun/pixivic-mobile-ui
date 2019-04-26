@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="ch">
+    <title>热门排序检索</title>
+    <link rel="icon" href="/Search/img/icon.png" type="image/x-icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-title" content="Pixiv Illustration Collection">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="description" content="提供Pixiv每日排行插画的浏览与下载,以及有限的高级会员搜索">
+    <meta name="keywords" content="pixiv.net,pixiv中国,pixiv怎么上不去,Pixiv,Pixiv每日排行,pixiv高级会员搜索,p站,二次元插画,ACG,动漫图包,pixiv安卓,pixiv站,.pixiv,pixiv图,pixiv中文"/>
+    <meta http-equiv="Cache-Control" content=”no-siteapp”/>
+    <link rel="stylesheet" href="/Search/css/style.css">
+    <link rel="stylesheet" href="/Search/css/waterfall.css">
+    <link rel="stylesheet" href="/Search/css/lightbox.css">
+    <script src="/Search/js/baidutongji.js"></script>
+</head>
+<body>
+<div class="search">
+    <form id="searchthis" style="display:inline;" action="javascript:void(0);">
+        <input id="search-box"  size="40" type="search"  onkeydown="search()"/>
+    </form>
+</div>
+<div class="slide-box" id="tags">
+</div>
+<div class="container">
+    <div class="content"></div>
+    <div class="loader" id="loader">
+        <img  src="/Search/img/loading.svg">
+    </div>
+    <div id="info"></div>
+</div>
+<div class="mask"></div>
+<div id='schedule-box' class="boxshaw">
+</div>
+<div>
+    <h3 id='h3Ele'></h3>
+</div>
+</body>
+<script src="/Search/js/waterfall.js"></script>
+<script src="/Search/js/lightbox.js"></script>
+<script src="/Search/js/index.js"></script>
+</html>

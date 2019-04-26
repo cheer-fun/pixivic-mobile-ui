@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset>
+    <url>
+        <loc>https://m.pixivic.com/index.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://m.pixivic.com/popSearch.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>    
+    <url>
+        <loc>https://m.pixivic.com/dailyRank.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://m.pixivic.com/links.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://m.pixivic.com/intro.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://m.pixivic.com/comments.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>
